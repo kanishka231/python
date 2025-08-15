@@ -32,6 +32,9 @@ we use the mypy with type hints
 So what happens is we provide myspy what type we expect for safety then do mypy main.py this will provide all the type error we encounters
 
 
+Python + mypy  ====  check the type statitclly 
+while typescript  is (type + javascript) has an in built compiler which check the type before runing the code 
+
 
  Q2. How python execute the code
  Ans.
