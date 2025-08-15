@@ -22,7 +22,15 @@ So the variable name are just lable they does not carrie that type inof they jus
 
 
 ```
-It will point to another object which is having type string and carrinet the value of that string 
+It will point to another object which is having type string and carrinet the value of that string .Wbefore exce can check the type before execution using mypy and pyright which will tell us nay type error we have before execution but they ust extention
+
+we use the mypy with type hints 
+
+```
+  x :string = "kanishka"
+```
+So what happens is we provide myspy what type we expect for safety then do mypy main.py this will provide all the type error we encounters
+
 
 
  Q2. How python execute the code
