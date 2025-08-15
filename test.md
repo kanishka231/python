@@ -6,7 +6,23 @@ so we can write
    x="kanishka"  \\string
    x=10   \\ int
 ```
- So in short we dont need to decalre the variable type it will determine at runtime
+ So in short we dont need to decalre the variable type it will determine at run time
+
+
+ the deeper reason behind is how pythin store the variable in memory python do not store the data dirctly in memory of varibale instead it store that in object which crries it type with it 
+
+ ```
+    <class type=int,5>
+
+```
+So the variable name are just lable they does not carrie that type inof they just point to that meomory object having type info and value
+
+```
+  x= Kanishka
+
+
+```
+It will point to another object which is having type string and carrinet the value of that string 
 
 
  Q2. How python execute the code
